@@ -50,7 +50,7 @@ public class VarastoTest {
     }
     
     @Test
-    public void luoKuormitettuVarastoNegatiivinenSaldo() {
+    public void luoKuormitettuVarastoNegatiivisellaSaldolla() {
         Varasto v = new Varasto(5, -1);
         assertEquals(0, v.getSaldo(), vertailuTarkkuus);
     }
