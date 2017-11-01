@@ -52,7 +52,7 @@ public class VarastoTest {
     @Test
     public void luoKuormitettuVarastoNegatiivinenSaldo() {
         Varasto v = new Varasto(5, -1);
-        assertEquals(1, v.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, v.getSaldo(), vertailuTarkkuus);
     }
 
 
